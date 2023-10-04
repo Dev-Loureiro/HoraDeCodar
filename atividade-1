@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 1- Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+
+    /* var nome_do_carro = "Fusca"
+    document.write (nome_do_carro); */
+
+    // 2- Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+
+        /* var nome = prompt("Digite seu nome: ")
+        document.write (`Olá, ${nome}`); */
+
+    // 3- Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+
+    /*    var nome = prompt("Digite seu nome: ")
+    var idade = prompt("Informe sua idade: ")
+    document.write(`Olá, ${nome} sua idade é ${idade}`) */
+
+    // 4- Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+        /* 
+        
+        //area do retangulo
+        
+        alert ("Vamos calcular a Área de um retangulo!");
+        var b = prompt("Informe o valor da base: ");
+        var h = prompt("Informe o valor da altura: ");
+        var a = b * h
+        document.write ("A área do retangulo é = " + a); */
+
+
+        // area do quadrado
+
+        /* alert ("Vamos calcular a Área de um quadrado!");
+        var l = prompt ("Informe o valor do lado: ");
+        var a = l * l
+        document.write ("A área do quadrado é = " + a ); */
+
+
+
+        // area do losangulo
+
+        /* alert ("Vamos calcular a Área de um losangulo!");
+        var d1 =  prompt("Informe o valor da Diagonal maior: ");
+        var d2 = prompt ("Inforome o valor da Diagonal menor:  ");
+        var a = (d1 * d2)/2 
+        document.write("A área do losangulo é = " + a); */
+
+
+        // area do trapezio 
+
+        /* 
+        alert ("Vamos calcular a Área de um Trapézio!");
+        var b1 =  prompt("Informe o valor da Base maior: ");
+        var b2 = prompt ("Inforome o valor da Base menor:  ");
+        var h = prompt ("Informe a altura: ");
+        var a = (b1 + b2) * h / 2
+        document.write("A área do Trapezio é = " + a); */
+
+        //area do paralelograma
+
+        /* alert ("Vamos calcular a Área de um Paralelograma!");
+        var b = prompt("Informe o valor da base: ");
+        var h = prompt("Informe o valor da altura: ");
+        var a = b * h
+        
+        document.write ("A área do paralelograma é = " + a);  */
+
+        // area do triângulo
+
+
+        /* 
+        alert ("Vamos calcular a Área de um Triângulo!");
+        var b = prompt("Informe o valor da base: ");
+        var h = prompt("Informe o valor da altura: ");
+    
+        var a = (b*h) / 2;
+        document.write ("A área do triângulo é = " + a); */
+
+        //area do circulo
+
+        /* 
+        alert ("Vamos calcular a Área de um Circulo!");
+        var pi = Math.PI;
+        var r =  prompt("Informe o valor do raio:")
+        var a = pi * (r*r);
+        
+        document.write ("A área do circulo é = " + a); */
+
+        //5 mostrar conteúdo para um usuário em modo caixa de alerta
+
+        //6 Pedir para usuário responder uma caixa de alerta, armazenando o valor em uma variavel
+
+        //7 mostrar o conteúdo no console para o desenvolvedor  acompanhar
+
+    </script>
+</body>
+</html>
